@@ -1,0 +1,35 @@
+.A,.B,.C,.D,.E
+{
+	display: inline-block;
+	height: 150px;
+	width: 90px;
+	margin-top: -40px;
+	background-color: #eeeff2;
+	border-left: 10px dotted #D0D0FF;
+    padding-left: 10px;
+}
+.F
+{
+    position: absolute;
+    height: 150px;
+    width: 90px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    padding-left: 10px;
+    bottom: 0;
+    right: 0; 
+}
+.A:hover,.B:hover,.C:hover,.D:hover,.E:hover,.F:hover
+{
+    background-color: yellow;
+    color: goldenrod;
+}
+body
+{
+	font-family: Tahoma;
+	font-size: 40px;
+}
+.container
+{
+    position: relative;
+}
